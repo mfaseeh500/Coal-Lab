@@ -6,7 +6,7 @@ main proc
     mov ah,1
     int 21h
     mov dl,al
-    add dl,32
+    sub dl,32
     mov ah,02
     int 21h
     mov ah,4ch
